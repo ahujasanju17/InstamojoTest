@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/profile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user_male"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/profile"
+                    android:layout_marginLeft="20dp"
+                    android:text="Username"
+                    android:textSize="14dp"
+                    android:id="@+id/usertext"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/usertext"
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:id="@+id/user_id"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#1e000000"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                >
+
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user_male"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/email"
+                    android:layout_marginLeft="20dp"
+                    android:text="Email"
+                    android:textSize="14dp"
+                    android:id="@+id/emailtext"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/emailtext"
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:id="@+id/user_email"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#1e000000"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                >
+
+            </View>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:src="@drawable/plus_48"
+            app:layout_anchorGravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="REQUESTS"
+            android:id="@+id/requests"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
